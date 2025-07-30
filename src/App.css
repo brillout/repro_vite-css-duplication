@@ -39,3 +39,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.some {
+  & .nested {
+    color: blue;
+  }
+}
